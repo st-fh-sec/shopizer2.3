@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo docker run --rm --tmpfs /tmp --mount type=bind,source=/home/student/exercises/manpage-master,target=/app appthreat/sast-scan scan --src /app/src  --out_dir /app/reports
